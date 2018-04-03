@@ -14,6 +14,7 @@ li {
   font-weight: bold;
   font-size: 20px;
   list-style-type: none;
+  padding: 12px 8px 12px 40px;
 }
 
 li:nth-child(odd) {
@@ -26,4 +27,16 @@ li.checked  {
 
 li:hover {
   cursor: pointer;
+  background: #ADD8E6;
+}
+
+.close:hover {
+  background-color: red;
+}
+
+.close {
+
+    right: 0;
+    top: 0;
+    padding: 2px 5px 2px 5px;
 }
